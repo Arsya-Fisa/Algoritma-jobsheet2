@@ -8,7 +8,6 @@ public class MataKuliahMain01 {
         mk1.jumlahjam = 5;
         mk1.tampilInformasi();
 
-        
         MataKuliah01 mk2 = new MataKuliah01("2B3C", "Matematika", 3, 6);
         mk2.tampilInformasi();
         mk2.tambahJam(3);

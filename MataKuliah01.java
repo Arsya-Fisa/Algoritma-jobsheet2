@@ -3,7 +3,6 @@ public class MataKuliah01 {
     String nama;
     int sks;
     int jumlahjam;
-
     public MataKuliah01() {
 
     }
@@ -13,8 +12,6 @@ public class MataKuliah01 {
         this.sks = sks;
         this.jumlahjam = jumlahjam;
     }
-   
-
     void tampilInformasi(){
         System.out.println("Kode Mk: " + kodeMk);
         System.out.println("Nama: " + nama);
@@ -23,7 +20,6 @@ public class MataKuliah01 {
     }
     void ubahSKS(int sksbaru) {
         sks = sksbaru;
-
     }
     void tambahJam (int jam){
         jumlahjam +=jam;
