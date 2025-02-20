@@ -4,7 +4,6 @@ public class Dosen01 {
     boolean statusAktif;
     int tahunBergabung;
     String bidangKeahlian; 
-
     public Dosen01 (){
 
     }
